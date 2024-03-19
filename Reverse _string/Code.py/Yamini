@@ -1,0 +1,17 @@
+# 1.Reverse a string
+def reverse(s):
+  str=' '
+  for i in s:
+    str=i+str
+  return str
+s="Believer"
+print(reverse(s))
+
+#output:reveileB
+
+
+#2.using slicing
+a= "Hopefull"
+print(a[::-1])
+
+#output:llufepoH
